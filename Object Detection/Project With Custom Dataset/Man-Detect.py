@@ -10,7 +10,7 @@ cap.set(4,480)
 # cap = cv2.VideoCapture("../images/jahangir1.jpg")
 
 
-model = YOLO('../Yolo-Weights/custom.pt')
+#model = YOLO('../Yolo-Weights/custom.pt')
 model = YOLO('../Yolo-Weights/yolov8n.pt')
 
 classNames=  [ 'aung','biazid', 'habib', 'jahangir', 'mahafuj', 'nadim', 'naim']
