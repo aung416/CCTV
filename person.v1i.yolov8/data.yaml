@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['naim', 'aung']
+
+roboflow:
+  workspace: me-kqege
+  project: person-va3hs
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/me-kqege/person-va3hs/dataset/1
